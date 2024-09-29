@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Karanlık mod */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+button.dark-mode {
+    background-color: white;
+    color: #333;
+}
